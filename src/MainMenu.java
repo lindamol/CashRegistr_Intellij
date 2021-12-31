@@ -15,6 +15,7 @@ public class MainMenu{
           while(true) {
               obj.PrintMenu();
               obj.getuserinput();
+
               double price = obj.calculate();
               System.out.println("The total Price is :" + price);
               LocalDate localDate= LocalDate.now();
